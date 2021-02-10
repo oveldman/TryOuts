@@ -1,0 +1,12 @@
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/bin/Debug/net5.0/Database.deps.json
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/bin/Debug/net5.0/Database.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/bin/Debug/net5.0/ref/Database.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/bin/Debug/net5.0/Database.pdb
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.csprojAssemblyReference.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.AssemblyInfoInputs.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.AssemblyInfo.cs
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.csproj.CoreCompileInputs.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/ref/Database.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/Database/obj/Debug/net5.0/Database.pdb

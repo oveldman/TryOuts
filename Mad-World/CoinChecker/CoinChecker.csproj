@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Base\" />
+    <Folder Include="Bittrex\" />
+    <Folder Include="Base\Interfaces\" />
+    <Folder Include="Base\Models\" />
+    <Folder Include="Base\Enums\" />
+    <Folder Include="Bittrex\Info\" />
+    <Folder Include="Bittrex\ApiModels\" />
+    <Folder Include="Cex\" />
+    <Folder Include="Cex\ApiModels\" />
+    <Folder Include="Cex\Info\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+</Project>

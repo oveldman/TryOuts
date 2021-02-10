@@ -1,0 +1,15 @@
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/CoinChecker.deps.json
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/CoinChecker.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/ref/CoinChecker.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/CoinChecker.pdb
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/Common.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/bin/Debug/net5.0/Common.pdb
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.csprojAssemblyReference.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.AssemblyInfoInputs.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.AssemblyInfo.cs
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.csproj.CoreCompileInputs.cache
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.csproj.CopyComplete
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/ref/CoinChecker.dll
+/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/Debug/net5.0/CoinChecker.pdb
