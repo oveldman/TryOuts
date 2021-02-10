@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cnojgfN0utZc+fzraQ9b8Ye6RVU4aoYvOs+VljMeF6bIwBB/xUVD9rPeXEKhNzJQHdT/vQa89MBy0n5Wtt4fTw==",
+  "dgSpecHash": "3rV4gMSgtC6Zu92p1cIShoay084/DRXqr4ycXeMcYLTaox559zX+0iJZlSzslyeFw60UMnXYHiWRsDDWfuqssw==",
   "success": true,
-  "projectFilePath": "/Users/oscarveldman/Documents/Dev/Mad-World/Database/Database.csproj",
+  "projectFilePath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Database/Database.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

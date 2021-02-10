@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/CoinChecker.csproj",
+      "projectUniqueName": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/CoinChecker/CoinChecker.csproj",
       "projectName": "CoinChecker",
-      "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/CoinChecker.csproj",
+      "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/CoinChecker/CoinChecker.csproj",
       "packagesPath": "/Users/oscarveldman/.nuget/packages/",
-      "outputPath": "/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/obj/",
+      "outputPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/CoinChecker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/oscarveldman/.config/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj": {
-              "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj"
+            "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj": {
+              "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj"
             }
           }
         }
@@ -81,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

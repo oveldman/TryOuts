@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLayer.Coins;
+using BusinessLayer.Coins.Interfaces;
 using CoinChecker.Base.Enums;
 using CoinChecker.Base.Interfaces;
 using CoinChecker.Bittrex;
@@ -69,6 +71,8 @@ namespace API
         private void AddToScope(IServiceCollection services)
         {
             services.AddScoped<IService, Service>();
+            services.AddScoped<IExchangeManager, ExchangeManager>();
+
             services.AddScoped<IExchangeAPI, BittrexExchange>();
             services.AddScoped<IExchangeAPI, CexExchange>();
 

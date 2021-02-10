@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using API.Models;
+using BusinessLayer.Coins.Interfaces;
 using CoinChecker.Base.Enums;
 using CoinChecker.Base.Interfaces;
 using CoinChecker.Base.Models;
@@ -15,22 +16,50 @@ namespace API.Controllers
     public class CoinExchangeController : ControllerBase
     {
         private readonly ILogger<CoinExchangeController> _logger;
-        private readonly IEnumerable<IExchangeAPI> ExchangeAPIs;
+        private readonly IExchangeManager _exchangeManager;
 
-        public CoinExchangeController(ILogger<CoinExchangeController> logger, IEnumerable<IExchangeAPI> exchangeAPIs)
+        public CoinExchangeController(ILogger<CoinExchangeController> logger, IExchangeManager exchangeManager)
         {
             _logger = logger;
-
-            ExchangeAPIs = exchangeAPIs;
+            _exchangeManager = exchangeManager;
         }
 
         [HttpGet]
-        public IEnumerable<CoinModel> Get()
+        [Route("GetAllExchangeTypes")]
+        public IEnumerable<ExchangeTypeModel> GetAllExchangeTypes()
         {
+            return Enum.GetValues(typeof(ExchangeType)).OfType<ExchangeType>()
+                        .Select(et => new ExchangeTypeModel {
+                            ID = (int) et,
+                            Name = et.ToString()
+                        })
+                        .ToList();
+        }
 
-            List<Coin> allKnownCoins = ExchangeAPIs.Select(ea => ea.GetValue(CoinType.Cardano, CoinType.Euro)).ToList();
+        [HttpGet]
+        [Route("GetAllCoinTypes")]
+        public IEnumerable<CoinTypeModel> GetAllCoinTypes()
+        {
+            return Enum.GetValues(typeof(CoinType)).OfType<CoinType>()
+                       .Select(ct => new CoinTypeModel {
+                           ID = (int) ct,
+                           Name = ct.ToString()
+                        }).ToList();
+        }
 
-            return allKnownCoins.Select(akc => new CoinModel(akc));
+        [HttpGet]
+        [Route("GetValues")]
+        public IEnumerable<CoinModel> GetValues(string baseCoin, string prizeCoin)
+        {
+            bool baseCoinParsedSucceed = Enum.TryParse<CoinType>(baseCoin, out CoinType baseCoinType);
+            bool prizeCoinParsedSucceed = Enum.TryParse<CoinType>(prizeCoin, out CoinType prizeCoinType);
+
+            if (baseCoinParsedSucceed && prizeCoinParsedSucceed) {
+                List<Coin> allKnownCoins = _exchangeManager.GetAllValues(baseCoinType, prizeCoinType);
+                return allKnownCoins.Select(akc => new CoinModel(akc));
+            }
+
+            return new List<CoinModel>();
         }
     }
 }

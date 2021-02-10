@@ -18,7 +18,6 @@
 /Users/oscarveldman/Documents/Dev/Mad-World/API/bin/Debug/net5.0/CoinChecker.pdb
 /Users/oscarveldman/Documents/Dev/Mad-World/API/bin/Debug/net5.0/Common.pdb
 /Users/oscarveldman/Documents/Dev/Mad-World/API/bin/Debug/net5.0/Database.pdb
-/Users/oscarveldman/Documents/Dev/Mad-World/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache
 /Users/oscarveldman/Documents/Dev/Mad-World/API/obj/Debug/net5.0/API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/oscarveldman/Documents/Dev/Mad-World/API/obj/Debug/net5.0/API.AssemblyInfoInputs.cache
 /Users/oscarveldman/Documents/Dev/Mad-World/API/obj/Debug/net5.0/API.AssemblyInfo.cs

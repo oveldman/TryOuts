@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/BusinessLayer.csproj",
+      "projectUniqueName": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/BusinessLayer.csproj",
+      "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/BusinessLayer.csproj",
       "packagesPath": "/Users/oscarveldman/.nuget/packages/",
-      "outputPath": "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/obj/",
+      "outputPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/oscarveldman/.config/NuGet/NuGet.Config"
@@ -85,11 +85,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/CoinChecker.csproj": {
-              "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/CoinChecker/CoinChecker.csproj"
+            "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/CoinChecker/CoinChecker.csproj": {
+              "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/CoinChecker/CoinChecker.csproj"
             },
-            "/Users/oscarveldman/Documents/Dev/Mad-World/Database/Database.csproj": {
-              "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/Database/Database.csproj"
+            "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Database/Database.csproj": {
+              "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Database/Database.csproj"
             }
           }
         }
@@ -118,7 +118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

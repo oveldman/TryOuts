@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I1sRAkhOmnnOCfjRLn2vq/c3NPPiOcHiSE9EER7XRpzoPkKctoLRYOWHCo/+SO8Z0nMaZUmduNE3tpPbXN4UDg==",
+  "dgSpecHash": "k59nY69YMr5BVHmToOTof/+TLBhokJm0bRQ5Kw1WH/HkY8Zop9j3hv7ZzSjOmLd0wwC0ILB3wC38w0Rm7/9Mzg==",
   "success": true,
-  "projectFilePath": "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/BusinessLayer.csproj",
+  "projectFilePath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/BusinessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

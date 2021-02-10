@@ -15,6 +15,7 @@
     <Folder Include="Cex\" />
     <Folder Include="Cex\ApiModels\" />
     <Folder Include="Cex\Info\" />
+    <Folder Include="Base\Info\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />

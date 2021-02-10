@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj": {}
+    "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj": {}
   },
   "projects": {
-    "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj": {
+    "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj",
+        "projectUniqueName": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj",
         "projectName": "Common",
-        "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/Common/Common.csproj",
+        "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/Common.csproj",
         "packagesPath": "/Users/oscarveldman/.nuget/packages/",
-        "outputPath": "/Users/oscarveldman/Documents/Dev/Mad-World/Common/obj/",
+        "outputPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/oscarveldman/.config/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

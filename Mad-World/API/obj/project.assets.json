@@ -266,11 +266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscarveldman/Documents/Dev/Mad-World/API/API.csproj",
+      "projectUniqueName": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/API/API.csproj",
+      "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/API/API.csproj",
       "packagesPath": "/Users/oscarveldman/.nuget/packages/",
-      "outputPath": "/Users/oscarveldman/Documents/Dev/Mad-World/API/obj/",
+      "outputPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/oscarveldman/.config/NuGet/NuGet.Config"
@@ -285,8 +285,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/BusinessLayer.csproj": {
-              "projectPath": "/Users/oscarveldman/Documents/Dev/Mad-World/BusinessLayer/BusinessLayer.csproj"
+            "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/BusinessLayer.csproj": {
+              "projectPath": "/Users/oscarveldman/Documents/GitHub/TryOuts/Mad-World/BusinessLayer/BusinessLayer.csproj"
             }
           }
         }
@@ -324,7 +324,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }
